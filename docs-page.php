@@ -9,9 +9,7 @@
                     <header class="docs-header">
                         <h1 class="docs-heading" id="item-1-1">Introduction <span class="docs-time">Last updated: 2019-06-01</span></h1>
                         <section class="docs-intro">
-                            <p> We are excited to introduce you to the goChronos timesheet project, a powerful tool designed to revolutionize time management for doctors and practitioners.
-
-                                In the fast-paced world of healthcare, every minute counts. That's why we've implemented goChronos to help us meticulously track and manage our time spent on various tasks related to patient care. Whether it's consultations, procedures, or administrative duties, goChronos enables us to stay organized and efficient, ensuring that our focus remains where it matters most: on our patients.</p>
+                            <p> Chronos offers a user-friendly interface and powerful features for maximizing productivity. Seamlessly manage your time across web and mobile platforms. Say goodbye to wasted time – join Chronos and make every minute count.</p>
                         </section>
                         <div class="callout-block callout-block-postman">
                             <div class="content">
@@ -32,7 +30,7 @@
                     <header class="docs-header">
                         <h1 class="docs-heading">APIs</h1>
                         <section class="docs-intro">
-                            <p>The GoChronos Project API facilitates the management of time tracking activities within an organization. It provides endpoints for administrators, supporters, and reporters to interact with the system efficiently. This overview highlights the key functionalities and endpoints available in the API.</p>
+                            <p>The Chronos API streamlines time tracking management within organizations. Designed for administrators, supporters, and reporters, it offers efficient system interaction through dedicated endpoints. This overview provides insights into the API's key functionalities and available endpoints.</p>
                         </section>
                     </header>
                     <!-- Authentication API -->
