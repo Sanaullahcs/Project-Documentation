@@ -7,11 +7,17 @@
             <div class="container">
                 <article class="docs-article" id="section-1">
                     <header class="docs-header">
-                        <h1 class="docs-heading" id="item-1-1">Introduction <span class="docs-time">Last updated: 2019-06-01</span></h1>
+                        <h1 class="docs-heading" id="item-1-1">Introduction <span class="docs-time">Last updated:
+                                2019-06-01</span></h1>
                         <section class="docs-intro">
-                            <p> We are excited to introduce you to the goChronos timesheet project, a powerful tool designed to revolutionize time management for doctors and practitioners.
+                            <p> We are excited to introduce you to the goChronos timesheet project, a powerful tool
+                                designed to revolutionize time management for doctors and practitioners.
 
-                                In the fast-paced world of healthcare, every minute counts. That's why we've implemented goChronos to help us meticulously track and manage our time spent on various tasks related to patient care. Whether it's consultations, procedures, or administrative duties, goChronos enables us to stay organized and efficient, ensuring that our focus remains where it matters most: on our patients.</p>
+                                In the fast-paced world of healthcare, every minute counts. That's why we've implemented
+                                goChronos to help us meticulously track and manage our time spent on various tasks
+                                related to patient care. Whether it's consultations, procedures, or administrative
+                                duties, goChronos enables us to stay organized and efficient, ensuring that our focus
+                                remains where it matters most: on our patients.</p>
                         </section>
                         <div class="callout-block callout-block-postman">
                             <div class="content">
@@ -22,7 +28,8 @@
                                     Tip
                                 </h4>
                                 <p>Upon successfully accessing the sign-in API, you receive a token in the
-                                    format: "token": "40|7xUK3bEyGSkXvgvQjGmXzCFnOy30J8QLct<br>T469bZecd956b0". This token is utilized by including it in the header to execute subsequent APIs.</p>
+                                    format: "token": "40|7xUK3bEyGSkXvgvQjGmXzCFnOy30J8QLct<br>T469bZecd956b0". This
+                                    token is utilized by including it in the header to execute subsequent APIs.</p>
                             </div>
                         </div>
                     </header>
@@ -32,19 +39,26 @@
                     <header class="docs-header">
                         <h1 class="docs-heading">APIs</h1>
                         <section class="docs-intro">
-                            <p>The GoChronos Project API facilitates the management of time tracking activities within an organization. It provides endpoints for administrators, supporters, and reporters to interact with the system efficiently. This overview highlights the key functionalities and endpoints available in the API.</p>
+                            <p>The GoChronos Project API facilitates the management of time tracking activities within
+                                an organization. It provides endpoints for administrators, supporters, and reporters to
+                                interact with the system efficiently. This overview highlights the key functionalities
+                                and endpoints available in the API.</p>
                         </section>
                     </header>
                     <!-- Authentication API -->
                     <section class="docs-section" id="item-3-1">
                         <h2 class="section-heading">Authentication API:</h2>
-                        <p>This API endpoint handles user authentication and authorization. It ensures secure access to the system's resources based on user roles and permissions.
+                        <p>This API endpoint handles user authentication and authorization. It ensures secure access to
+                            the system's resources based on user roles and permissions.
                             <br>
                             <br>
                         <div class="request-title">
                             <h3 class="">SignIn </h3><button class="post">POST</button>
                         </div>
-                        The <b> SignIn </b> API allows users to securely log in based on their roles as administrators, supporters, or reporters. By submitting credentials, users gain access to their respective functionalities within the GoChronos Project platform. This POST API ensures role-based authentication, maintaining data security and user accountability throughout the system.
+                        The <b> SignIn </b> API allows users to securely log in based on their roles as administrators,
+                        supporters, or reporters. By submitting credentials, users gain access to their respective
+                        functionalities within the GoChronos Project platform. This POST API ensures role-based
+                        authentication, maintaining data security and user accountability throughout the system.
                         </p>
                         <div class="callout-block callout-block-success">
                             <div class="content">
@@ -55,7 +69,8 @@
                                     Tip
                                 </h4>
                                 <p>Upon successfully accessing the sign-in API, you receive a token in the
-                                    format: "token": "40|7xUK3bEyGSkXvgvQjGmXzCFnOy30J8QLct<br>T469bZecd956b0". This token is utilized by including it in the header to execute subsequent APIs.</p>
+                                    format: "token": "40|7xUK3bEyGSkXvgvQjGmXzCFnOy30J8QLct<br>T469bZecd956b0". This
+                                    token is utilized by including it in the header to execute subsequent APIs.</p>
                             </div>
                         </div>
                         <div class="tab">
@@ -126,12 +141,22 @@
                     <!-- Users API -->
                     <section class="docs-section" id="item-3-2">
                         <h2 class="section-heading">Users API</h2>
-                        <p>Within our software project, we've implemented a user management system encompassing creation, updating, listing, and deletion functionalities. Our system caters to three distinct user roles: GoChronos Administrator, Supporter, and Reporter, each delineated by unique permissions and responsibilities. Administrators wield the authority to oversee user creation and removal, aligning with project protocols. End-users possess the capability to autonomously update their personal details, while role modifications necessitate administrator intervention. Access to user directories is governed by predefined permission structures</p>
+                        <p>Within our software project, we've implemented a user management system encompassing
+                            creation, updating, listing, and deletion functionalities. Our system caters to three
+                            distinct user roles: GoChronos Administrator, Supporter, and Reporter, each delineated by
+                            unique permissions and responsibilities. Administrators wield the authority to oversee user
+                            creation and removal, aligning with project protocols. End-users possess the capability to
+                            autonomously update their personal details, while role modifications necessitate
+                            administrator intervention. Access to user directories is governed by predefined permission
+                            structures</p>
 
                         <div class="request-title">
                             <h3 class="">User / Create </h3><button class="post">POST</button>
                         </div>
-                        <p>Our User <b> Create </b> API enables seamless creation of new user accounts within our system, facilitating rapid onboarding. Through simple API calls, developers can efficiently integrate this functionality into their applications, ensuring swift user registration and access management
+                        <p>Our User <b> Create </b> API enables seamless creation of new user accounts within our
+                            system, facilitating rapid onboarding. Through simple API calls, developers can efficiently
+                            integrate this functionality into their applications, ensuring swift user registration and
+                            access management
                         </p>
 
                         <div class="tab ">
@@ -229,7 +254,10 @@
                         <div class="request-title">
                             <h3 class="">User / Update </h3><button class="put">PUT</button>
                         </div>
-                        <p>Our User <b> Update </b>API facilitates the seamless updating of existing user accounts within our system, streamlining the process of modifying user information. With straightforward API calls, developers can efficiently integrate this functionality into their applications, ensuring swift user profile management and access control.
+                        <p>Our User <b> Update </b>API facilitates the seamless updating of existing user accounts
+                            within our system, streamlining the process of modifying user information. With
+                            straightforward API calls, developers can efficiently integrate this functionality into
+                            their applications, ensuring swift user profile management and access control.
                         </p>
 
                         <div class="tab ">
@@ -324,7 +352,11 @@
                         <div class="request-title">
                             <h3 class="">User / Delete </h3><button class="delete">DELETE</button>
                         </div>
-                        <p>Our User <b> Deletion </b>API allows for the seamless removal of existing user accounts within our system, simplifying the process of eliminating specific user records. By providing the user ID within the endpoint URL, developers can efficiently integrate this functionality into their applications, ensuring straightforward deletion of user profiles and access control.
+                        <p>Our User <b> Deletion </b>API allows for the seamless removal of existing user accounts
+                            within our system, simplifying the process of eliminating specific user records. By
+                            providing the user ID within the endpoint URL, developers can efficiently integrate this
+                            functionality into their applications, ensuring straightforward deletion of user profiles
+                            and access control.
                         </p>
 
                         <div class="tab ">
@@ -396,7 +428,12 @@
                         <div class="request-title">
                             <h3 class="">User / List Or Detail </h3><button class="get">GET</button>
                         </div>
-                        <p>Our User <b> List Or Detail </b>API provides a comprehensive overview of all user accounts within our system, offering developers a convenient method to retrieve multiple user records. Additionally, by appending the user ID to the endpoint URL, developers can access detailed information for a specific user, facilitating efficient retrieval of individual user profiles. This functionality ensures flexibility in managing user data and facilitates streamlined access control processes.
+                        <p>Our User <b> List Or Detail </b>API provides a comprehensive overview of all user accounts
+                            within our system, offering developers a convenient method to retrieve multiple user
+                            records. Additionally, by appending the user ID to the endpoint URL, developers can access
+                            detailed information for a specific user, facilitating efficient retrieval of individual
+                            user profiles. This functionality ensures flexibility in managing user data and facilitates
+                            streamlined access control processes.
                         </p>
 
                         <div class="tab ">
@@ -548,20 +585,24 @@
                     <footer class="footer">
                         <div class="container text-center py-5">
                             <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-                            <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+                            <!-- <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
                             <ul class="social-list list-unstyled pt-4 mb-0">
                                 <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
                                 <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                                </li>
                                 <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
-                            </ul><!--//social-list-->
+                            </ul>
+                            <!--//social-list-->
                         </div>
                     </footer>
             </div>
         </div>
-    </div><!--//docs-wrapper-->
+    </div>
+    <!--//docs-wrapper-->
 
 
     <!-- Javascript -->
@@ -581,20 +622,20 @@
     <script src="assets/js/docs.js"></script>
     <script src="assets/js/tab.js"></script>
     <script>
-        // Function to open the selected tab content
-        function openTab(event, tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tab-content fade-in ");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].classList.remove("active");
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).classList.add("active");
-            event.currentTarget.className += " active";
+    // Function to open the selected tab content
+    function openTab(event, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content fade-in ");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.remove("active");
         }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).classList.add("active");
+        event.currentTarget.className += " active";
+    }
     </script>
 </body>
 
