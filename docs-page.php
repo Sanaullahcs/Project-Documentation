@@ -1,8 +1,8 @@
-<?php include 'includes/header.php'?>
+<?php include 'includes/header.php' ?>
 
 <body class="docs-page">
     <div class="docs-wrapper ">
-        <?php include 'includes/navigation.php'?>
+        <?php include 'includes/navigation.php' ?>
         <div class="docs-content">
             <div class="container">
                 <article class="docs-article" id="section-1">
@@ -574,12 +574,13 @@
     },
     "meta": []
 }
+
 </code></pre>
                             </div>
                         </div>
                     </section>
-                    <?php include 'apis/organization.php'?>
-                    <?php include 'apis/department.php'?>
+                    <?php include 'apis/organization.php' ?>
+                    <?php include 'apis/department.php' ?>
 
 
                     <footer class="footer">
@@ -622,20 +623,20 @@
     <script src="assets/js/docs.js"></script>
     <script src="assets/js/tab.js"></script>
     <script>
-    // Function to open the selected tab content
-    function openTab(event, tabName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tab-content fade-in ");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].classList.remove("active");
+        // Function to open the selected tab content
+        function openTab(event, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content fade-in ");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).classList.add("active");
+            event.currentTarget.className += " active";
         }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(tabName).classList.add("active");
-        event.currentTarget.className += " active";
-    }
     </script>
 </body>
 
