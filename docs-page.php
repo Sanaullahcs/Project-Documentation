@@ -581,6 +581,8 @@
                     </section>
                     <?php include 'apis/organization.php' ?>
                     <?php include 'apis/department.php' ?>
+                    <?php include 'apis/task.php' ?>
+                    <?php include 'apis/organ.php' ?>
 
 
                     <footer class="footer">
