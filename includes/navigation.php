@@ -8,7 +8,6 @@
     <nav id="docs-nav" class="docs-nav navbar">
         <ul class="section-items list-unstyled nav flex-column pb-3">
             <li class="nav-item section-title"><a class="nav-link scrollto" ><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
-
 			<li class="nav-item"><a class="nav-link" href="#item-1-1" onclick="scrollToSection('item-1-1')">Overview</a></li>
 
             <li class="nav-item section-title mt-3">
@@ -20,9 +19,15 @@
             <li class="nav-item"><a class="nav-link" href="#item-3-2" onclick="scrollToSection('item-3-2')">Users</a></li>
             <li class="nav-item"><a class="nav-link" href="#item-3-3" onclick="scrollToSection('item-3-3')">Organizations</a></li>
             <li class="nav-item"><a class="nav-link" href="#item-3-4" onclick="scrollToSection('item-3-4')">Departments</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-6" onclick="scrollToSection('item-3-6')">Organ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-6" onclick="scrollToSection('item-3-6')">Organ Category </a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-5" onclick="scrollToSection('item-3-5')">Task</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-5" onclick="scrollToSection('item-3-5')">Assign Task</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-5" onclick="scrollToSection('item-3-5')">Time Study</a></li>
         </ul>
     </nav>
 </div>
+
 
 
 

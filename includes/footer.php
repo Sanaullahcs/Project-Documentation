@@ -1,39 +1,35 @@
 <section class="cta-section text-center py-5 theme-bg-dark position-relative">
-	<div class="theme-bg-shapes-right"></div>
-	<div class="theme-bg-shapes-left"></div>
-	<div class="container">
-		<h3 style="color: #002a52;" class="mb-2 text-white mb-3 choronos-theme">Choronos</h3>
-		<div class="section-intro text-white mb-3 single-col-max mx-auto  choronos-theme">
-			Welcome to Chronos - Your Ultimate Time Management Companion! With Chronos, you can seize every moment and
-			make it count towards your productivity and success. Say goodbye to wasted time and hello to efficient time
-			tracking, task management, and productivity insights. Take control of your schedule, accomplish more, and
-			achieve your goals with Chronos.
-		</div>
+    <div class="theme-bg-shapes-right"></div>
+    <div class="theme-bg-shapes-left"></div>
+    <div class="container">
+        <h3 class="mb-2 text-white mb-3">Launch Your Software Project Like A Pro</h3>
+        <div class="section-intro text-white mb-3 single-col-max mx-auto">Want to launch your software project and start
+            getting traction from your target users? Check out our premium <a class="text-white"
+                href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/coderpro-bootstrap-5-startup-template-for-software-projects/">Bootstrap
+                5 startup template CoderPro</a>! It has everything you need to promote your product.</div>
 
-
-	</div>
-</section><!--//cta-section-->
+    </div>
+</section>
+<!--//cta-section-->
 
 <footer class="footer">
 
-	<div class="footer-bottom text-center py-5">
+    <div class="footer-bottom text-center py-5">
 
-		<ul class="social-list list-unstyled pb-4 mb-0">
-			<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-			<li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
-		</ul>
+        <ul class="social-list list-unstyled pb-4 mb-0">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
+        </ul>
 
-		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-		<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"
-				style="color: #fb866a;"></i> by <a class="theme-link" href="" target="_blank">Choronos</a> for
-			developers</small>
+        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+        <!-- <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small> -->
 
 
-	</div>
+    </div>
 
 </footer>
 
