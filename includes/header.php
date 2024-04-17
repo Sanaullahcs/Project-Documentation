@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Time Study</title>
+    <title>Chronos</title>
 
     <!-- Meta -->
     <meta charset="utf-8">

@@ -29,8 +29,7 @@
 							        <span class="card-title-text">Introduction</span>
 							    </h5>
 							    <div class="card-text">
-								    Section overview goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-							    </div>
+								Chronos: Your essential time management tool, across web and mobile. Maximize productivity with our powerful features. Say hello to efficiency, join now!			    </div>
 							    <a class="card-link-mask" href="docs-page.php#section-1"></a>
 						    </div>
 					    </div>
@@ -62,8 +61,7 @@
 							        <span class="card-title-text">APIs</span>
 							    </h5>
 							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-								</div>
+								Explore our third-party APIs to enhance your Chronos experience. Seamlessly integrate for streamlined time management and boosted productivity.							</div>
 							    <a class="card-link-mask" href="docs-page.php#section-3"></a>
 						    </div>
 					    </div>
@@ -113,11 +111,10 @@
 							        <span class="card-title-text">Web</span>
 							    </h5>
 							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+								Chronos web platform: Effortlessly organize tasks, prioritize goals, and boost productivity with intuitive tools and seamless integration. </div>
 								</div>
 							    <a class="card-link-mask" href="docs-page.html#section-6"></a>
-						    </div>
-					    </div>
+							</div>
 				    </div>
 				    <div class="col-12 col-lg-4 py-3">
 					    <div class="card shadow-sm">
@@ -129,8 +126,7 @@
 							        <span class="card-title-text">Mobile</span>
 							    </h5>
 							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-								</div>
+								Chronos mobile app: Empowering productivity on the go, offering seamless time management tools at your fingertips.								</div>
 							    <a class="card-link-mask" href="docs-page.html#section-7"></a>
 						    </div>
 					    </div>
@@ -145,8 +141,7 @@
 							        <span class="card-title-text">Resources</span>
 							    </h5>
 							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-								</div>
+								Chronos Resources: Access essential tools and valuable information to optimize your time management strategy.								</div>
 							    <a class="card-link-mask" href="docs-page.html#section-8"></a>
 						    </div>
 					    </div>
@@ -161,8 +156,7 @@
 							        <span class="card-title-text">FAQs</span>
 							    </h5>
 							    <div class="card-text">
-								    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-								</div>
+								Chronos FAQs: Your source for answers to commonly asked questions about our time management solutions.								</div>
 							    <a class="card-link-mask" href="docs-page.html#section-9"></a>
 						    </div>
 					    </div>

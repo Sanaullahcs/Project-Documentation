@@ -39,10 +39,14 @@
                     <header class="docs-header">
                         <h1 class="docs-heading">APIs</h1>
                         <section class="docs-intro">
+<<<<<<< HEAD
+                            <p>The Chronos API streamlines time tracking management within organizations. Designed for administrators, supporters, and reporters, it offers efficient system interaction through dedicated endpoints. This overview provides insights into the API's key functionalities and available endpoints.</p>
+=======
                             <p>The GoChronos Project API facilitates the management of time tracking activities within
                                 an organization. It provides endpoints for administrators, supporters, and reporters to
                                 interact with the system efficiently. This overview highlights the key functionalities
                                 and endpoints available in the API.</p>
+>>>>>>> main
                         </section>
                     </header>
                     <!-- Authentication API -->
