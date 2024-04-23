@@ -10,13 +10,13 @@
                         <h1 class="docs-heading" id="item-1-1">Introduction <span class="docs-time">Last updated:
                                 2019-06-01</span></h1>
                         <section class="docs-intro">
-                            <p> We are excited to introduce you to the goChronos timesheet project, a powerful tool
+                            <p> We are excited to introduce you to the Medicare Time Study timesheet project, a powerful tool
                                 designed to revolutionize time management for doctors and practitioners.
 
                                 In the fast-paced world of healthcare, every minute counts. That's why we've implemented
-                                goChronos to help us meticulously track and manage our time spent on various tasks
+                                Medicare Time Study to help us meticulously track and manage our time spent on various tasks
                                 related to patient care. Whether it's consultations, procedures, or administrative
-                                duties, goChronos enables us to stay organized and efficient, ensuring that our focus
+                                duties, Medicare Time Study enables us to stay organized and efficient, ensuring that our focus
                                 remains where it matters most: on our patients.</p>
                         </section>
                         <div class="callout-block callout-block-postman">
@@ -39,14 +39,10 @@
                     <header class="docs-header">
                         <h1 class="docs-heading">APIs</h1>
                         <section class="docs-intro">
-<<<<<<< HEAD
-                            <p>The Chronos API streamlines time tracking management within organizations. Designed for administrators, supporters, and reporters, it offers efficient system interaction through dedicated endpoints. This overview provides insights into the API's key functionalities and available endpoints.</p>
-=======
-                            <p>The GoChronos Project API facilitates the management of time tracking activities within
+                            <p>The Medicare Time Study Project API facilitates the management of time tracking activities within
                                 an organization. It provides endpoints for administrators, supporters, and reporters to
                                 interact with the system efficiently. This overview highlights the key functionalities
                                 and endpoints available in the API.</p>
->>>>>>> main
                         </section>
                     </header>
                     <!-- Authentication API -->
@@ -61,7 +57,7 @@
                         </div>
                         The <b> SignIn </b> API allows users to securely log in based on their roles as administrators,
                         supporters, or reporters. By submitting credentials, users gain access to their respective
-                        functionalities within the GoChronos Project platform. This POST API ensures role-based
+                        functionalities within the Medicare Time Study Project platform. This POST API ensures role-based
                         authentication, maintaining data security and user accountability throughout the system.
                         </p>
                         <div class="callout-block callout-block-success">
@@ -147,7 +143,7 @@
                         <h2 class="section-heading">Users API</h2>
                         <p>Within our software project, we've implemented a user management system encompassing
                             creation, updating, listing, and deletion functionalities. Our system caters to three
-                            distinct user roles: GoChronos Administrator, Supporter, and Reporter, each delineated by
+                            distinct user roles: Medicare Time Study Administrator, Supporter, and Reporter, each delineated by
                             unique permissions and responsibilities. Administrators wield the authority to oversee user
                             creation and removal, aligning with project protocols. End-users possess the capability to
                             autonomously update their personal details, while role modifications necessitate
@@ -584,9 +580,12 @@
                         </div>
                     </section>
                     <?php include 'apis/organization.php' ?>
-                    <?php include 'apis/department.php' ?>
-                    <?php include 'apis/task.php' ?>
+                    <?php include 'apis/department.php' ?>                 
                     <?php include 'apis/organ.php' ?>
+                    <?php include 'apis/organCategory.php' ?>
+                    <?php include 'apis/task.php' ?>
+                    <?php include 'apis/assignTask.php' ?>
+                    <?php include 'apis/timeStudy.php' ?>
 
 
                     <footer class="footer">

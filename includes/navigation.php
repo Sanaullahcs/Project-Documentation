@@ -19,11 +19,11 @@
             <li class="nav-item"><a class="nav-link" href="#item-3-2" onclick="scrollToSection('item-3-2')">Users</a></li>
             <li class="nav-item"><a class="nav-link" href="#item-3-3" onclick="scrollToSection('item-3-3')">Organizations</a></li>
             <li class="nav-item"><a class="nav-link" href="#item-3-4" onclick="scrollToSection('item-3-4')">Departments</a></li>
-            <li class="nav-item"><a class="nav-link" href="#item-3-6" onclick="scrollToSection('item-3-6')">Organ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-5" onclick="scrollToSection('item-3-5')">Organ</a></li>
             <li class="nav-item"><a class="nav-link" href="#item-3-6" onclick="scrollToSection('item-3-6')">Organ Category </a></li>
-            <li class="nav-item"><a class="nav-link" href="#item-3-5" onclick="scrollToSection('item-3-5')">Task</a></li>
-            <li class="nav-item"><a class="nav-link" href="#item-3-5" onclick="scrollToSection('item-3-5')">Assign Task</a></li>
-            <li class="nav-item"><a class="nav-link" href="#item-3-5" onclick="scrollToSection('item-3-5')">Time Study</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-7" onclick="scrollToSection('item-3-7')">Task</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-8" onclick="scrollToSection('item-3-8')">Assign Task</a></li>
+            <li class="nav-item"><a class="nav-link" href="#item-3-9" onclick="scrollToSection('item-3-9')">Time Study</a></li>
         </ul>
     </nav>
 </div>

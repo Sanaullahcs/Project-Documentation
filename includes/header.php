@@ -32,7 +32,7 @@
                 <div class="docs-logo-wrapper">
                     <div class="site-logo"><a class="navbar-brand" href="index.php">
                             <!-- <span class="logo-text">Go<span class="text-alt">Chronos</span></span></a></div> -->
-                            <img src="assets/images/chorono.png" class="mainLogo" alt="logo" />
+                            <img src="assets/images/timestudy-final.52dd110e.png" class="mainLogo" alt="logo" />
                     </div><!--//docs-logo-wrapper-->
                     <div class="docs-top-utilities d-flex justify-content-end align-items-center">
 
